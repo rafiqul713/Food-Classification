@@ -94,5 +94,5 @@ H = model.fit_generator(
 	class_weight=classWeight,
 	verbose=1)
 
-model.save("/home/rafiqul//model_output/saved.model")
+model.save("/home/rafiqul/model_output/saved.model")
 predictions = model.predict(trainX, batch_size=BS)
